@@ -42,7 +42,8 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                     <Rectangle Grid.Column="0" 
-                               Grid.Row="0" 
+                               Grid.Row="0"
+                               Margin="5,7"
                                Fill="Blue" 
                                Stroke="Red" 
                                StrokeThickness="3" 
@@ -50,9 +51,13 @@
                                RadiusY="7"/>
                     <Ellipse Grid.Column="1"
                              Grid.Row="0"
+                             Margin="5,7"
                              Fill="Red"
                              Stroke="Blue"
                              StrokeThickness="3" />
+                    <GridSplitter Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"
+                                  HorizontalAlignment="Right"
+                                  Width="4" />
                 </Grid>
             </TabItem>
             <TabItem Header="Вкладка 2"></TabItem>
