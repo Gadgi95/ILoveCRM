@@ -16,7 +16,7 @@ namespace ILoveCRM.ViewModels
         public string Title
         {
             get => _Title;
-            
+
             //set
             //{
             //    if (Equals(_Title, value)) return;
@@ -28,6 +28,20 @@ namespace ILoveCRM.ViewModels
 
             set => Set(ref _Title, value);
         }
+        #endregion
+
+        #region Status : string - Статус программы
+
+        /// <summary>Статус программы</summary>
+        private string _Status = "Готов!";
+
+        public string Status
+        {
+            get => _Status;
+            set => Set(ref _Status, value);
+        }
+
+
         #endregion
 
     }
